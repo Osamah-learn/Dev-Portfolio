@@ -44,7 +44,7 @@ const NavBar = () => {
     return (
         <div className="flex justify-between px-5 py-3 my-5">
             <span className="text-xl font-bold text-green-500 border-b-4 tex border-b-green-300 md:text-2xl hover:text-green-300">{activeComponent}</span>
-            <div className="space-x-3 space-x-6 text-lg text-red-700">
+            <div className="space-x-6 text-lg text-red-700">
                 <NavItems activeComponent={activeComponent} setActiveComponent={setActiveComponent} name="About" route="/" />
                 <NavItems activeComponent={activeComponent} setActiveComponent={setActiveComponent} name="Projects" route="/projects" />
                 <NavItems activeComponent={activeComponent} setActiveComponent={setActiveComponent} name="Resume" route="/resume" />
