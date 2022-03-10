@@ -2,13 +2,16 @@ import { FunctionComponent } from "react";
 import  {IconType}  from "react-icons";
 
 export interface GetPerson {
-  simplePerson: SimplePerson[];
+  title: string;
+  about: string;
+  items:[];
 }
 
 export interface SimplePerson {
   Icon?: IconType;
   title?: string;
   about?: string;
+
 }
 
 export interface Skill {
