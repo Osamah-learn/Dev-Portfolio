@@ -4,10 +4,9 @@ import { BsCircle } from "react-icons/bs";
 const Bar: FunctionComponent<{
   data: Skill
 }> = ({ data: { name, level } }) => {
-  console.log("level value",level);
   return (
 
-    <div className="my-2 text-white rounded-full bg-slate-200">
+    <div className="my-2 text-white rounded-full bg-slate-200 dark:bg-zinc-700">
 
       <div className="flex items-center px-2 py-1 rounded-full bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-wh"
         style={{ width: level }}>

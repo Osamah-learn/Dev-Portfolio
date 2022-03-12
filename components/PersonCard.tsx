@@ -10,7 +10,7 @@ const PersonCard: FunctionComponent<{ items: GetPerson }> = ({ items }, { icon }
   }
   return (
 
-    <div className="text-center ">
+    <div className="text-center dark:bg-zinc-700 dark:text-white ">
       <h4 className="p-4 text-lg font-bold text-cyan-600">{items.title} {icon}</h4>
       <p className="p-8" dangerouslySetInnerHTML={createMarkup()} />
 

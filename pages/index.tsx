@@ -24,7 +24,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
 
 const index: NextPage = ({ items }: any) => {
   return (
-    <div className="flex flex-col flex-grow px-6 pt1">
+    <div className="flex flex-col flex-grow px-6 pt1 dark:bg-zinc-700 dark:text-white">
       <h5 className="my-5 font-medium">Hei My name is Osamah, but people call me Osku. iam A junior full stack developer with one year experience as a front end developer in the SOS-Lapsikylä
         organization in Finland, I graduated from Omnia Institute in information and communication technology
         also i have about 150 credits in Software Engineering at University of Metropolia.
@@ -37,8 +37,8 @@ const index: NextPage = ({ items }: any) => {
             /* is is a way to access the array of icons. */
             const Icon = icons[idx];
             return (
-              <div className="col-span-1 text-black bg-gray-100 border lg:rounded-lg">
-                <div  className="flex items-center justify-center py-3"><Icon className="w-10 h-10 text-fuchsia-400" /></div>
+              <div className="col-span-1 text-black bg-gray-100 border lg:rounded-lg dark:bg-zinc-500 dark:text-white">
+                <div  className="flex items-center justify-center py-3 dark:bg-zinc-500 dark:text-white"><Icon className="w-10 h-10 text-fuchsia-400" /></div>
 
                 <PersonCard  key={item.title} items={item}  ></PersonCard>
 

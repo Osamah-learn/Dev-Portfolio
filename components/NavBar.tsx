@@ -50,7 +50,7 @@ const NavBar = () => {
             <div className="flex flex-wrap items-stretch justify-between py-3 my-7 px-7 ">
             
                 <span className="text-xl font-bold text-green-500 border-b-4 tex border-b-green-300 md:text-2xl hover:text-green-300">{activeComponent}</span>
-                <div className="space-x-2 text-lg text-red-700 md:space-x-6 ">
+                <div className="space-x-2 text-lg text-red-700 md:space-x-6 dark:text-white">
                     <NavItems activeComponent={activeComponent} setActiveComponent={setActiveComponent} name="About" route="/" />
                     <NavItems activeComponent={activeComponent} setActiveComponent={setActiveComponent} name="Projects" route="/projects" />
                     <NavItems activeComponent={activeComponent} setActiveComponent={setActiveComponent} name="Resume" route="/resume" />

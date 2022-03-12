@@ -1,8 +1,8 @@
 import React from 'react'
-import {CardComponent} from "../components/cardComponent"
+import {CardComponent} from "../components/CardComponent"
 const recommendations = () => {
   return (
-    <div className="p-4">Recommendations
+    <div className="p-4 dark:bg-zinc-700 ">Recommendations
     
     <CardComponent/>
     
