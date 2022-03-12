@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/no-unescaped-entities */
 import { GetServerSideProps, GetStaticProps, NextPage } from "next"
-import { loadPerson } from "../lib/load-data"
+import { loadPerson } from "../lib/loadPerson"
 import PersonCard from "../components/PersonCard"
 import { DiReact, DiNodejsSmall, DiCode, DiCss3Full, DiCodeigniter } from "react-icons/di";
 import { AiOutlineMobile } from "react-icons/ai";

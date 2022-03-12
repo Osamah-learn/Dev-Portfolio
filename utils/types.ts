@@ -15,9 +15,9 @@ export interface SimplePerson {
 }
 
 export interface Skill {
-  Icon: IconType;
   name: string;
   level: string;
+  data:[]
 }
 
 export interface IProject {
