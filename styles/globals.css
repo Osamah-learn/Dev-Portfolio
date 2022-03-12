@@ -5,7 +5,7 @@
 
 /* Use TailWind */
 body{
-    background-color:black;
-    font-family:sans-serif
-   
+    color:black;
+    font-family:sans-serif;
+   min-height: 80;
 }
