@@ -1,14 +1,7 @@
-import { loadLang } from "../lib/loadLang"
+import { loadLang } from "../lib/loadResume"
 import { GetServerSideProps, GetStaticProps, NextPage } from "next"
-import { DiVim } from "react-icons/di";
-import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
-import Image from 'next/image'
-import ivan from '../img/ivan.jpg'
-import ahto from '../img/ahtona.jpeg'
-import teemu from "../img/Teemu.jpg"
-import eppu from "../img/eppu.jpg"
 import Bar from "../components/Bar"
-import { Key } from "react";
+
 export const getServerSideProps: GetServerSideProps = async () => {
     /* This is a promise that is resolved when the data is loaded. */
     const results = await loadLang()

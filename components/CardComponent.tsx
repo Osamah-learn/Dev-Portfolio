@@ -1,10 +1,6 @@
-import ivan from '../img/ivan.jpg'
-import ahto from '../img/ahtona.jpeg'
-import teemu from "../img/Teemu.jpg"
-import eppu from "../img/eppu.jpg"
-import Image from 'next/image'
+import teemu from "../public/img/teemu.jpg"
 import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
-
+import Image from 'next/image'
 
 
 
@@ -13,7 +9,7 @@ export const CardComponent = () => {
     return (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 dark:bg-zinc-700 dark:text-white">
             {/* Card Component */}
-            <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow dark:bg-zinc-800 dark:text-white">
+            <div className="flex flex-col items-center justify-center p-4 rounded-lg shadow bg-slate-200 dark:bg-zinc-500 dark:text-white">
 
                 <div className="inline-flex w-40 h-40 overflow-hidden border border-gray-200 rounded-full shadow-lg ">
 

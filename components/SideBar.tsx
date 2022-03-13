@@ -1,4 +1,4 @@
-import logo from "../img/osku.jpg";
+import logo from "../public/img/osku.jpg";
 import Image from 'next/image'
 import { AiFillGithub, AiFillLinkedin, AiFillWindows, AiFillYoutube } from "react-icons/ai"
 import { GoLocation } from "react-icons/go"

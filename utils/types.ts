@@ -1,10 +1,9 @@
-import { FunctionComponent } from "react";
-import  {IconType}  from "react-icons";
+import { IconType } from "react-icons";
 
 export interface GetPerson {
   title: string;
   about: string;
-  items:[];
+  items: [];
 }
 
 export interface SimplePerson {
@@ -17,7 +16,7 @@ export interface SimplePerson {
 export interface Skill {
   name: string;
   level: string;
-  data:[]
+  data: []
 }
 
 export interface IProject {
@@ -31,5 +30,5 @@ export interface IProject {
 }
 
 
-
-export type Category = "react" | "node" | "express" | "django" | "mongo";
+/* Assing type Category inside Iproject */
+export type Category = "react" | "node" | "express" | "django" | "mongo"| "python" | "reactNative";

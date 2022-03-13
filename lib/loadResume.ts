@@ -7,7 +7,7 @@ import { Skill } from "../utils/types";
  */
  export  const loadLang:any = async () => {
 
-  const res = await fetch("http://localhost:3000/api/lang")
+  const res = await fetch("http://localhost:3000/api/resume")
   const results: Skill = await res.json()
   return results
 

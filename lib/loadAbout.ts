@@ -7,7 +7,7 @@ import { GetPerson } from "../utils/types";
  */
  export  const loadPerson:any = async () => {
 
-  const res = await fetch("http://localhost:3000/api/data")
+  const res = await fetch("http://localhost:3000/api/about")
   const results: GetPerson = await res.json()
   return results
 
