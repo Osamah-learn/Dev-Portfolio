@@ -8,7 +8,7 @@ import { SimplePerson, Skill, IProject } from "../../utils/types"
 
 
 
-export const simplePerson: SimplePerson[] = [
+export const loadAbout: SimplePerson[] = [
   {
 
     title: "Frontend Development",
@@ -50,5 +50,5 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  res.status(200).json({ simplePerson })
+  res.status(200).json({ loadAbout })
 }
