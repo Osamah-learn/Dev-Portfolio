@@ -5,6 +5,7 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
+    
     fontFamily: {
       'kaushan': ['Kaushan Script', ],
     },
