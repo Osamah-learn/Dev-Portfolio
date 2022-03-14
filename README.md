@@ -1,7 +1,5 @@
 
 <h1 align="center">Welcome to Osku-dev 👋</h1>
-![porto](https://user-images.githubusercontent.com/77615959/158212947-2aa78870-a199-452f-8e3c-25f8492ffa51.png)
-
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://nextjs.org/docs" target="_blank">
