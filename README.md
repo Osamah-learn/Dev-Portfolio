@@ -6,7 +6,8 @@
 * [General Info](#general-information)
 * [Technologies Used](#ReactJS,Next.js)
 * [Features](#features)
-* [Screenshots](#[porto](https://user-images.githubusercontent.com/77615959/158208233-df51a34e-c1b6-44d0-86b6-a865eb11a3aa.png)
+* [Screenshots]![porto](https://user-images.githubusercontent.com/77615959/158208438-f5eab8db-bc34-4afb-998b-0ed3192b3457.png)
+
 
 * [Setup](#setup)
 * [Usage](#usage)
