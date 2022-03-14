@@ -1,3 +1,4 @@
+
 <h1 align="center">Welcome to Osku-dev 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
@@ -32,10 +33,3 @@ npm run start
 * Website: https://osamah-dev.tech/
 * Github: [@Osamah-learn](https://github.com/Osamah-learn)
 * LinkedIn: [@https:\/\/www.linkedin.com\/in\/osamah-amer-395a371b1\/details\/skills\/](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/osamah-amer-395a371b1\/details\/skills\/)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
