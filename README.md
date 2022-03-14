@@ -4,8 +4,8 @@
 
 ## Table of Contents
 * [General Info](#general-information)
-* #typescript,ReactJS,Next.js,
-* [Features](#features)
+*[Features](##typescript,ReactJS,Next.js,)
+* [ScreenShots](#features)
 * ![porto](https://user-images.githubusercontent.com/77615959/158208438-f5eab8db-bc34-4afb-998b-0ed3192b3457.png)
 
 
