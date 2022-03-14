@@ -19,9 +19,9 @@ const ProjectCard: FunctionComponent<{ items: IProject }> = ({ items }) => {
             {/* truthy statment*/
                 showContent &&
 
-                <div className="absolute top-0 left-0 z-10 flex flex-wrap justify-around w-full h-auto bg-slate-100 dark:text-white dark:bg-zinc-500 ">
+                <div className="absolute top-0 left-0 z-10 flex flex-wrap justify-around w-full h-auto bg-slate-100 dark:text-white dark:bg-zinc-500">
                     {/* left Section */}
-                    <div className="p-1 bg-gray-200 w-96 rounded-2xl dark:bg-zinc-400">
+                    <div className="p-1 bg-gray-200 w-96 rounded-2xl dark:bg-zinc-400 ">
                         <Image className="rounded-2xl" width="400" height="200" src={items.image_path} alt={items.name} />
                         <div className="flex justify-center my-4 space-x-3 ">
                             <a className="flex justify-center px-4 py-2 space-x-3 text-lg text-blue-500 rounded-md outline-none hover:text-blue-700 dark:text-white" href={items.github_url}><AiFillGithub size={28} /> <span>Github</span></a>

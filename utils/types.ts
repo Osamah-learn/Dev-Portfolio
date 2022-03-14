@@ -4,9 +4,10 @@ export interface GetPerson {
   title: string;
   about: string;
   items: [];
+  icon:any;
 }
 
-export interface SimplePerson {
+export interface AboutType {
   Icon?: IconType;
   title?: string;
   about?: string;

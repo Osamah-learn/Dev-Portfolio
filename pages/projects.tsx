@@ -18,7 +18,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
 const projects: NextPage = ({ projects }: any) => {
   console.log("projects : ", projects);
   return (
-    <div className="px-5 py-2 overflow-scroll" style={{height:"65vh"}}>
+    <div className="px-5 py-2 overflow-scroll " style={{ height: "65vh" }}>
       <div className="NavBar">
 
       </div>

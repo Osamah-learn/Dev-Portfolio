@@ -4,11 +4,11 @@ import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
-import { SimplePerson, Skill, IProject } from "../../utils/types"
+import { AboutType, Skill, IProject } from "../../utils/types"
 
 
 
-export const loadAbout: SimplePerson[] = [
+export const loadAbout: AboutType[] = [
   {
 
     title: "Frontend Development",
