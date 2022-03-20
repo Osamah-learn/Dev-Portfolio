@@ -32,7 +32,7 @@ export const projects: IProject[] = [
     image_path: "/../img/y.svg",
     deployed_url: "https://play.google.com/store/apps/details?id=com.ylitse&hl=fi&gl=US",
     github_url: "https://github.com/sos-lapsikyla/ylitse-app",
-    category: ["react", "python", "reactNative"],
+    category: ["reactNative"],
     key_techs: ["Python", "React", "React Native"],
   }
 ]

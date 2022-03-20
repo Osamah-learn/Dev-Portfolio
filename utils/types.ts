@@ -32,4 +32,4 @@ export interface IProject {
 
 
 /* Assing type Category inside Iproject */
-export type Category = "react" | "node" | "express" | "django" | "mongo"| "python" | "reactNative";
+export type Category = "react" | "node" | "express" | "django" | "mongo"| "reactNative";

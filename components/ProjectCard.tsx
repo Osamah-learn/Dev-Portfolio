@@ -1,7 +1,6 @@
 import React, { FunctionComponent, useState } from 'react'
 import Image from 'next/image'
 import { IProject } from "../utils/types"
-import { DiGithubBadge } from "react-icons/di";
 import { AiFillGithub, AiFillProject } from 'react-icons/ai';
 import { MdClose } from 'react-icons/md';
 
