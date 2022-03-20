@@ -13,7 +13,7 @@ const ProjectCard: FunctionComponent<{ items: IProject }> = ({ items }) => {
 
 
         <div>
-            <Image onClick={() => setShowContent(true)} className="cursor-pointer " width="400" height="200" src={items.image_path} alt={items.name} />
+            <Image onClick={() => setShowContent(true)} className="cursor-pointer rounded-2xl " width="400" height="200" src={items.image_path} alt={items.name} />
             <p className="my-3 text-center">{items.name}</p>
             {/* truthy statment*/
                 showContent &&
