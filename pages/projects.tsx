@@ -43,8 +43,8 @@ const Projects: NextPage = ({ projectData }: any) => {
   return (
     <div className="px-5 py-2 overflow-scroll " style={{ height: "65vh" }}>
       <ProjectsNavBar projectFilterHandler={projectFilterHandler} activeItem={activeItem} />
-      <div className="relative grid grid-cols-12 gap-4 my-3">
-        {projects.map((project: any) => (<div className="col-span-12 p-2 rounded-lg sm:col-span-6 lg:col-span-4 bg-slate-200 dark:bg-zinc-500" key={project.name}>
+      <div className="relative grid grid-cols-12 gap-4 my-3 text-center">
+        {projects.map((project: any) => (<div className="col-span-12 p-4 rounded-lg sm:col-span-6 lg:col-span-4 bg-slate-200 dark:bg-zinc-500" key={project.name}>
           <ProjectCard items={project} key={project.name} />
         </div>))}
       </div>
